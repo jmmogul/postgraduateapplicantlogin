@@ -1,0 +1,182 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family:segoe UI;
+	background-color: #F9FAFD;
+}
+
+
+
+.grid{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+P{
+	text-align: center;
+}
+
+.backgroundimage{
+ background-image: url(image/loginbackground1.jpg);
+ background-attachment: scroll;
+ background-size: cover;
+ background-repeat: no-repeat;
+
+ color: white;
+ height:100%;
+ font-family:Helvetica;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: bolder;
+font-size: 40px;
+width:650px;
+position: fixed;
+left: 0px;
+
+
+
+
+
+}
+
+
+
+.grid{
+	display: grid;
+	grid-template-columns: minmax(100px,00px) 1fr;
+
+	
+}
+
+
+
+.login{
+	
+	
+	height: 745px;
+	width: 640px;
+	position: fixed;
+	padding: 0px 15px;
+    right: 0px;
+	max-width: ;
+
+
+}
+
+.logo{
+	padding-top:27px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin:0px 0px 0px 27px;
+
+}
+
+.ug{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;  
+	width: 580px;
+	height: 38.19px;
+	color: #FFFFFF;
+	background: linear-gradient(to right, blue, rgb(241, 207, 53));
+	margin-top: 20px;
+	padding-top: -10px;
+	margin-left: -15px;
+}
+
+.sign{
+	color: #485A78;
+	width: 490px;
+	margin: 36px 0px 8px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0PX;
+	text-align: center;
+	
+
+}
+
+form label{
+	position: relative;
+}
+
+form label:hover::after{
+	content:"" ;
+	background: linear-gradient(to right, blue, gold);
+	width: 100px;
+	height: 4px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+
+.serialpage{
+
+}
+
+form {
+width: ;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	height: 300px;
+	width: 490px;
+margin-left: 30px;
+margin-top: -20px;
+flex-wrap: wrap;
+flex-grow: 0px;
+	
+
+	
+
+}
+
+form label{
+	color: #485A78;
+	font-weight: bolder;
+	margin: 0px 0px 10px  10px;
+	margin-top: 0px;
+
+
+
+}
+
+
+form input{
+	width:500px;
+	height:40px;
+	border-radius: 3px;
+	border: 1px solid #BABFC7;
+	margin-bottom: 20px;
+}
+
+
+
+button{
+	
+	border: none;
+	color:rgb(255, 255, 255);
+	margin-top: -30px;
+	width:65px;
+	border-radius: 4px;
+	height:30px;
+	font-family:verdana;
+	background: #000073;
+	margin-left: 40px;
+}
+
+
+::placeholder{
+	font-family: serif;
+	font-size:12px;
+	padding: 10px;
+}
